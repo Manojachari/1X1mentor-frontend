@@ -1,0 +1,29 @@
+.mentor-sessions {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mentor-sessions h2 {
+    margin-bottom: 15px;
+  }
+  
+  .mentor-sessions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mentor-sessions li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .mentor-id-input{
+    margin-right: 20px;
+    width: 100;
+  }
+  
+  .list{
+    margin-top: 15px;
+  }

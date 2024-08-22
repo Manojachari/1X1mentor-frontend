@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Schedule Page Container */
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Mentor List Container */
+.mentor-list-container {
+  flex: 1;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+/* Scheduler Container */
+.scheduler-container {
+  flex: 2;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+/* Mentor Sessions Container */
+.mentor-sessions-container {
+  flex: 1;
+  padding: 15px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .schedule-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .mentor-list-container, 
+  .scheduler-container, 
+  .mentor-sessions-container {
+    margin-right: 20px;
+  }
+
+  .mentor-sessions-container {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .schedule-container {
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .mentor-list-container,
+  .scheduler-container,
+  .mentor-sessions-container {
+    margin-right: 30px;
+  }
+
+  .mentor-sessions-container {
+    margin-right: 0;
+  }
+}
