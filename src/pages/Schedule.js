@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MentorList from '../components/MentorList';
 import Scheduler from '../components/Scheduler';
 import '../styles/Schedule.css';
